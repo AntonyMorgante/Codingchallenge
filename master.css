@@ -1,0 +1,83 @@
+/* Sfondo */
+body{
+  background-image:url("Immagini/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial,Helvetica,sans-serif;
+  width: 65%;
+  margin:auto;
+  margin-top: 2%;
+}
+
+/* Ombreggiatura header*/
+header{
+  background-color: rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Logo */
+#logo{
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:5%;
+}
+
+/* Slogan */
+#slogan{
+  Color:#1cd91c;
+  text-align: center;
+  font-size: 28px;
+}
+
+/* Ombreggiatura main*/
+main{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding:5%;
+  padding-top: 0%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+/* Barra dei pulsanti */
+.band{
+    border: 10px solid #1cd91c;
+    background-color: #1cd91c;
+    text-align:center;
+}
+
+/* Colore carattere sulle opzioni */
+.options{
+  color:white;
+}
+
+/* Allineamento tra spunta e opzione */
+.option-name{
+  display: inline-block;
+}
+
+/* Barra della prima opzione */
+#status1{
+  border: 15px solid #fdba3f;
+  background-color: #fdba3f;
+  border-radius: 5px;
+  width:25%;
+}
+
+/* Barra della seconda opzione */
+#status2{
+  border: 15px solid #1cd91c;
+  background-color: #1cd91c;
+  border-radius: 5px;
+  width:30%;
+}
+
+/* Barra della terza opzione */
+#status3{
+  border: 15px solid #fb4e4e;
+  background-color: #fb4e4e;
+  border-radius: 5px;
+  width:15%;
+}
